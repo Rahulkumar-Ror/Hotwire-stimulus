@@ -1,0 +1,15 @@
+<div id="<%= dom_id room %>">
+<%= turbo_stream_from @room %>
+<%= turbo_frame_tag "room" do %>
+  <p>
+    <strong>Name:</strong>
+    <%= room.name %>
+  </p>
+
+<% end %>
+</div>
+
+<div id="messages"> 
+  <%= render @room.messages %>
+</div>
+<%= turbo_frame_tag "new_message",src: new_room_message_path(@room), target: "_top" %>
