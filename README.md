@@ -1,24 +1,7 @@
-# README
+# HOTWIRE
+Hotwire having a three component :-
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1) Turbo:- Heart of hot-wire is a set of complimentary technique for speeding up page changes and form submissions, dividing complex pages into components, and stream partial page updates over Web socket.
 
-Things you may want to cover:
+2) Stimulus:- Its come in situation where turbo will handle.. while turbo usually takes care of at least 80% of the interactivity that traditionally would have required Javascript, there are still cases where a dash of custom code is required.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
