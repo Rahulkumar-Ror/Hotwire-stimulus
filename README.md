@@ -1,4 +1,5 @@
-# HOTWIRE
+# HOTWIRE-STIMULUS
+
 Hotwire having a three component :-
 
 1) Turbo:- Heart of hot-wire is a set of complimentary technique for speeding up page changes and form submissions, dividing complex pages into components, and stream partial page updates over Web socket..
